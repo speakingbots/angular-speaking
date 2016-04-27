@@ -1,5 +1,5 @@
 angular.module('angular-speaking-ui-chat', ['luegg.directives'])
-  .directive('angularSpeackingChat', function() {
+  .directive('angularSpeakingChat', function() {
     'use strict';
     return {
       templateUrl: 'views/templates/angular-speaking-ui-bootstrap3-chat.html',
