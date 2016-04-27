@@ -3,7 +3,7 @@
   "authors": [
     "Alain Beauvois <alain@speakingbots.com>"
   ],
-  "description": "Angular-speaking is an angular UI which use Google Chrome SpeechSynthesis and SpeechRecognition Voice Synthesis and SpeakingBots API that allows you to create a virtual assistents. Create you own Siri!",
+  "description": "Angular-speaking are directives to display SpeakingBots virtual assistants which text or voice recognition",
   "main": "dist/angular-speaking.js",
   "keywords": [
     "speech",

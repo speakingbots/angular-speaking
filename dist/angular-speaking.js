@@ -1,9 +1,9 @@
-angular.module('angular-speaking', ['angular-speaking-ui-directive']);
-angular.module('angular-speaking-ui-directive', ['luegg.directives'])
-  .directive('angularSpeackingChat', function() {
+angular.module('angular-speaking', ['angular-speaking.chat-directive', 'angular-speaking.templates']);
+angular.module('angular-speaking.chat-directive', ['luegg.directives'])
+  .directive('angularSpeakingChat', function() {
     'use strict';
     return {
-      templateUrl: 'views/templates/angular-speaking-ui-bootstrap3-chat.html',
+      templateUrl: 'views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html',
       restrict: 'EA',
       //link: function(scope, element, attrs) {
       link: function(scope) {
@@ -39,8 +39,7 @@ angular.module('angular-speaking-ui-directive', ['luegg.directives'])
     };
   });
 
-
-angular.module('SpeakingBots.Templates', ['views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html']);
+angular.module('angular-speaking.templates', ['views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html']);
 
 angular.module('views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html', []).run(['$templateCache', function($templateCache) {
   'use strict';

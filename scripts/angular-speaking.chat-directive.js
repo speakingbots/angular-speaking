@@ -1,8 +1,8 @@
-angular.module('angular-speaking-ui-chat', ['luegg.directives'])
+angular.module('angular-speaking.chat-directive', ['luegg.directives'])
   .directive('angularSpeakingChat', function() {
     'use strict';
     return {
-      templateUrl: 'views/templates/angular-speaking-ui-bootstrap3-chat.html',
+      templateUrl: 'views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html',
       restrict: 'EA',
       //link: function(scope, element, attrs) {
       link: function(scope) {

@@ -1,4 +1,4 @@
-angular.module('SpeakingBots.Templates', ['views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html']);
+angular.module('angular-speaking.templates', ['views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html']);
 
 angular.module('views/templates/angular-speaking-ui-bootstrap3-chat.tpl.html', []).run(['$templateCache', function($templateCache) {
   'use strict';

@@ -9,7 +9,7 @@
         concat: {
             options: {
                 banner:
-                    'angular.module(\'angular-speaking\', [\'angular-speaking-ui-directive\']);\n'
+                    'angular.module(\'angular-speaking\', [\'angular-speaking.chat-directive\', \'angular-speaking.templates\']);\n'
             },
             dist: {
                 src: ['./scripts/*.js'],
@@ -35,7 +35,7 @@
                 },
                 src: ['./views/{,*/}*.html'],
                 dest: './scripts/templates.js',
-                module: 'SpeakingBots.Templates'
+                module: 'angular-speaking.templates'
             }
         }
     });
