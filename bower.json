@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/speakingbots/angular-speaking",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
