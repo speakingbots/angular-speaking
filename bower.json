@@ -1,0 +1,39 @@
+{
+  "name": "angular-speaking",
+  "authors": [
+    "Alain Beauvois <alain@speakingbots.com>"
+  ],
+  "description": "Angular-speaking is an angular UI which use Google Chrome SpeechSynthesis and SpeechRecognition Voice Synthesis and SpeakingBots API that allows you to create a virtual assistents. Create you own Siri!",
+  "main": "dist/angular-speaking.js",
+  "keywords": [
+    "speech",
+    "recognition",
+    "voice",
+    "ui",
+    "siri",
+    "cortana",
+    "googleNow",
+    "speakingbots"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/speakingbots/angular-speaking",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.2.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.2.x",
+    "angular-resource": "^1.2.x",
+    "angular-cookies": "^1.2.x",
+    "angular-sanitize": "^1.2.x"
+  }
+
+}
